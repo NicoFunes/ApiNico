@@ -1,9 +1,5 @@
 package com.redhat.fuse.boosters.rest.http;
 
-/**
- * Greetings entity
- *
- */
 public class Greetings {
 
     private String greetings;
