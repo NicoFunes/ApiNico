@@ -12,5 +12,11 @@ public class GreetingsServiceImpl implements GreetingsService {
     public Greetings getGreetings(@Header("name") String name ) {
         return new Greetings( THE_GREETINGS + name );
     }
+     
+    @Override
+    public Greetings generalGreetings(String message) {
+        return new Greetings("Hoy se vuelve en 59");
+    }
+
 
 }
